@@ -1,0 +1,55 @@
+body{
+	margin: 2rem;
+}
+
+section{
+	margin-bottom: 2rem;
+}
+
+
+img {
+	max-width: 500px;
+	height: auto;
+}
+
+span.font{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+span.h1{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+span.h2{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 2rem;
+	font-weight: bold;
+}
+span.h3{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: italic;
+}
+span.description{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 1rem;
+	font-style: italic;
+}
+span.paragraph{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-size: 1rem;
+}
+span.icing{
+	background-color: rgb(218,233,228);
+}
+span.bora{
+	background-color: rgb(139,203,200);
+}
+span.sakura{
+	background-color: rgb(236,199,12);
+}
+span.cranberry{
+	background-color: rgb(60,46,61);
+}
