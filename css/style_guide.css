@@ -26,15 +26,96 @@ section code {
   padding: 0.5em 0.75em;
 }
 
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
 
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: black;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: rgb(236,199,12);
+}
+
+/* Styling for the submit button */
+.button-submit {
+  display: inline-block;
+  border: none;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-nav:focus {
+  background-color: rgb(218,233,228);
+}
 
 /* 
   TEXT ELEMENTS -------------------
 */
 
+/* Styling for the heading */
+.h1{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.h2{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 2rem;
+  font-weight: bold;
+}
+.h3{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Styling for the description */
+.desc{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Styling for the paragra */
+.para{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 1rem;
+}
+
+
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+/* Styling for the main navigation */
+.main-nav{
+  list-style-type: none;
+}
+.main-nav li{
+  float: left;
+  padding: 0 2rem;
+}
+/* Styling for the side navigation */
+.side-nav{
+  list-style-type: none;
+}
+.side-nav li{
+  padding: 0.5rem 0;
+}
+
