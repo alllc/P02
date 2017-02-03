@@ -42,8 +42,22 @@ section code {
   transition: color 0.5s ease-out;
 }
 
+
 .button-nav:hover, .button-nav:focus {
   color: rgb(236,199,12);
+}
+
+.intext-link {
+  display: block;
+  color: #000;
+  text-decoration: underline;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.intext-link:hover, .intext-link:focus {
+  color: #cabc95;
+  text-decoration: none;
 }
 
 /* Styling for the submit button */
