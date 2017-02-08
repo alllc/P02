@@ -1,6 +1,5 @@
 body {
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  max-width: 1000px;
   float: center;
 }
 
@@ -31,9 +30,41 @@ body {
   float: left;
 }
 
-.grid-col-1of5{
+/*.grid-col-1of5{
 	width: 20%;
 }
 .grid-col-3of5{
 	width: 60%;
+}*/
+.main-nav{
+	margin: 1em;
+
+}
+.main-nav-diretion{
+	float: left;
+
+}
+.main-nav-direction{
+	
+}
+.main-nav-icon{
+	float: right;
+	padding-right: 0.5em;
+}
+
+.main-nav-direction a{
+	padding: 0 0.9rem;
+}
+
+.main-nav-section{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 0.1em;
+}
+
+.body-content-section{
+	padding-top: 50px;
 }
