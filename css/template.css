@@ -1,0 +1,39 @@
+body {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  max-width: 1000px;
+  float: center;
+}
+
+.main-nav a{
+	text-decoration: none;
+}
+
+.icon{
+	width: 50px;
+	height: 40px;
+}
+
+.logo{
+	max-width: 100px;
+	height: auto;
+}
+.grid-row{
+	width: 100%;
+}
+
+.grid-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+[class^='grid-col-'] {
+  float: left;
+}
+
+.grid-col-1of5{
+	width: 20%;
+}
+.grid-col-3of5{
+	width: 60%;
+}
