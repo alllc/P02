@@ -30,12 +30,6 @@ body {
   float: left;
 }
 
-/*.grid-col-1of5{
-	width: 20%;
-}
-.grid-col-3of5{
-	width: 60%;
-}*/
 .main-nav{
 	margin: 1em;
 
@@ -45,15 +39,20 @@ body {
 
 }
 .main-nav-direction{
-	
+	margin: auto;
 }
 .main-nav-icon{
 	float: right;
 	padding-right: 0.5em;
 }
 
+/* navigation text*/
 .main-nav-direction a{
 	padding: 0 0.9rem;
+	color: rgb(139,203,200);
+}
+a.select{
+	color: rgb(60,46,61);
 }
 
 .main-nav-section{
