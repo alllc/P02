@@ -1,6 +1,38 @@
 body {
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	margin: 0;
 }
+
+a {
+	font-size: 0.5em;
+}
+
+
+[class^='grid-'] {
+ 	float: left;
+}
+
+
+.button-nav {
+  display: inline-block;
+  padding: 0 2rem;
+  color: rgb(60,46,61);
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+a.select{
+	color: rgb(139,203,200);
+}
+
+
+.button-nav:hover, .button-nav:focus {
+    color: rgb(139,203,200);
+}
+
+
 
 .main-nav a{
 	text-decoration: none;
@@ -15,13 +47,85 @@ body {
 	max-width: 100px;
 	height: auto;
 }
+
 * {
     box-sizing: border-box;
 }
 
+
 .grid-row{
 	width: 100%;
 	height: auto;
+	display: block;
+}
+
+.main-nav-section{
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 0.1em;
+	max-height: 100px;
+
+}
+
+/* Styling for the submit button */
+.button-submit {
+  display: inline-block;
+  border: none;
+  padding: 0.25em 0.35em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-nav:focus {
+  background-color: rgb(139,203,200);
+  color: rgb(60,46,61);
+}
+
+.input-text[type=text] {
+    width: 10em;
+    padding: 0.5em 0.75em;
+    margin: 0.2em;
+    box-sizing: border-box;
+    border: 0.15em solid #cccccc;
+    color: #555
+}
+
+.search-bar{
+	padding: 0.1em;
+	position: absolute;
+	right: 0;
+	margin-right: 0.5em;
+}
+
+.body-content-section{
+	margin: 0.2em;
+	padding: 0.5em;
+}
+
+#chairImg {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#leftIcon {
+	position: absolute;
+	left: 0;
+	width: 51px;
+	height: 51px;
+}
+#rightIcon {
+	position: absolute;
+	right: 0;
+	width: 51px;
+	height: 51px;
 }
 
 .grid-row::after {
@@ -29,44 +133,10 @@ body {
   	display: block;
   	clear: both;
 }
-.main-nav-section{
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: white;
-	border-bottom-style: solid;
-	border-bottom-width: 0.1em;
-	max-height: 100px;
 
-}
 
-.main-nav-direction{
-	font-size: 0.5em;
-	padding-top: 0.3em;
-
-}
 [class^='grid-col-'] {
  	float: left;
-}
-
-
-/* navigation text*/
-.main-nav-direction a{
-	padding: 0 0.9rem;
-	color: rgb(139,203,200);
-}
-a.select{
-	color: rgb(60,46,61);
-}
-
-
-.body-content-section{
-	margin-top: 50px;
-	max-width: 1024px;
-	padding: 0.1em;
-	background: #E8E8E8;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 
