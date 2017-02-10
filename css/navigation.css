@@ -39,6 +39,12 @@ body {
 	max-height: 100px;
 
 }
+
+.main-nav-direction{
+	font-size: 0.5em;
+	padding-top: 0.3em;
+
+}
 [class^='grid-col-'] {
  	float: left;
 }
@@ -57,7 +63,8 @@ a.select{
 .body-content-section{
 	margin-top: 50px;
 	max-width: 1024px;
-	background: gray;
+	padding: 0.1em;
+	background: #E8E8E8;
 	margin-left: auto;
 	margin-right: auto;
 }
