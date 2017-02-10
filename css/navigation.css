@@ -64,16 +64,18 @@ a.select{
 
 
 /*when the window is greater than 800 px*/
-@media(min-width: 800px){
+@media(min-width: 816px){
 	.main-nav{
 
 	}
 	.main-nav-logo{
 		float: left;
 		margin-top: 0.5em;
+		margin-left: 0.5em;
 	}
 	.main-nav-icon{
 		float: right;
+		margin-right: 0.5em;
 	}
 	.main-nav-direction{
 		float: right;
@@ -88,7 +90,7 @@ a.select{
 }
 
 /*when the window is greater than 800 px*/
-@media(max-width: 799px){
+@media(max-width: 815px){
 
 	.main-nav{
 
