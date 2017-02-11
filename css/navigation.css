@@ -137,6 +137,14 @@ figure figcaption{
 	text-align: center;
 }
 
+.productDetial{
+	margin: 3em;
+}
+
+.grid-col-1of2{
+	width: 45%;
+}
+
 .products{
 	margin: 3em;
 }
@@ -146,6 +154,8 @@ figure figcaption{
   	display: block;
   	clear: both;
 }
+
+.
 
 
 [class^='grid-col-'] {
